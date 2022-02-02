@@ -31,6 +31,8 @@ body{
     height: 150px;
     width: 250px;
     object-fit: cover;
+    
+    margin:auto;
 }
 
 .user-name{
@@ -50,16 +52,18 @@ body{
 .bottom-nav{
     background-color: #222222;
     height: 100px;
+    position: sticky;
+    bottom: 0;
 }
 
 .bottom{
-    margin: 2rem;
+    /* margin: 2rem 2rem 0 2rem; */
     display: flex;
     justify-content: space-between;
 }
 
 ul{
-    margin: 0;
+    margin-left: 2rem;
 	padding: 1rem 0;
     position: relative;
 	display: flex;
@@ -91,7 +95,7 @@ ul .icon{
 
 
 #ul-center li{
-    padding-right: 1rem;
+    padding-right: 1.5rem;
 }
 
 
@@ -107,5 +111,34 @@ ul .icon{
 }
 
 .arrow3{
-    left: 170px;
+    left: 370px;
+}
+
+.special{
+    margin-right: 3rem;
+}
+
+.special .icon{
+    color: rgb(1, 190, 1);
+}
+
+.btn{
+    line-height: 100px;
+    vertical-align: middle;
+    background-color: #4a4a4a;
+    padding: 0 1rem;
+}
+
+.btn a{
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+.btn:hover{
+    background-color: #696969;
+}
+
+.btn a:hover{
+    color: white;
 }
