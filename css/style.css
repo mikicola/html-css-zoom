@@ -14,15 +14,35 @@ body{
     margin: auto;  
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.view{
+    color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.white-btn{
+    color: white;
+    background-color: #4a4a4a;
+    padding: .3rem;
+    border-radius: 5px;
+    margin: .3rem;
+}
+
 .users-display{
     margin: 2rem;
     display: flex;
     flex-wrap:wrap;
-    /* justify-content:space-evenly; */
 }
 
 .users-display .user{
-    /* background-color: burlywood; */
     margin: .3rem .1rem;
     position: relative;
 }
@@ -88,6 +108,10 @@ ul .icon{
     padding-bottom: .5rem;
 }
 
+ul .name{
+    font-size: .8em;
+}
+
 #ul-center{
     /* display: flex;
     justify-content: center; */
@@ -111,11 +135,11 @@ ul .icon{
 }
 
 .arrow3{
-    left: 370px;
+    left: 350px;
 }
 
 .special{
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .special .icon{
