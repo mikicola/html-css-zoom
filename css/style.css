@@ -18,12 +18,12 @@ body{
     margin: 2rem;
     display: flex;
     flex-wrap:wrap;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
 }
 
 .users-display .user{
     /* background-color: burlywood; */
-    margin: .5rem .3rem;
+    margin: .3rem .1rem;
     position: relative;
 }
 
@@ -45,4 +45,29 @@ body{
 
 .padding-right{
     padding-right: .5rem;
+}
+
+.bottom-nav{
+    background-color: #222222;
+    height: 100px;
+}
+
+ul{
+	margin: 0;
+	padding: 20px 0; /* Adding some padding */
+	
+	display: flex; /* flex Set navigation bar horizontally using the  display tag*/
+	color: white;
+}
+
+ul li{
+	list-style: none;
+	text-align: center;
+	display: block;
+	/* border-right: 2rem solid rgba(0,0,0,0.2); */
+    padding-right: 2rem;
+}
+
+ul .icon{
+    font-size: 2rem;
 }
