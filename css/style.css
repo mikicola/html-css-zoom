@@ -52,22 +52,60 @@ body{
     height: 100px;
 }
 
+.bottom{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 ul{
-	margin: 0;
-	padding: 20px 0; /* Adding some padding */
-	
-	display: flex; /* flex Set navigation bar horizontally using the  display tag*/
-	color: white;
+    margin: 0;
+	padding: 1rem 0;
+    position: relative;
+	display: flex;
 }
 
 ul li{
-	list-style: none;
+    list-style: none;
 	text-align: center;
 	display: block;
-	/* border-right: 2rem solid rgba(0,0,0,0.2); */
-    padding-right: 2rem;
+    padding-right: 3rem;
+}
+
+ul li a{
+    text-decoration: none;
+	
+	display: block;
+    color: white;
 }
 
 ul .icon{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    padding-bottom: .5rem;
+}
+
+#ul-center{
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+#ul-center li{
+    padding-right: 1rem;
+}
+
+
+
+.arrow, .arrow2, .arrow3{
+    position: absolute;
+    left: 50px;
+    bottom: 45px;
+}
+
+.arrow2{
+    left: 170px;
+}
+
+.arrow3{
+    left: 170px;
 }
