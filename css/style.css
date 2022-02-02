@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.users-display{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap:wrap;
+    justify-content:center
+}
+
+.users-display .user{
+    background-color: burlywood;
+    margin: .3rem;
+    position: relative;
+}
+
+.img-user{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.user-name{
+    position: absolute;
+    bottom: .2rem;
+    right: .2rem;
+}
